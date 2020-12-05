@@ -2284,76 +2284,6 @@ object {
 }
 
 
-/*-------------------------------
-		CLIENTS-SECTION
----------------------------------*/
-
-.client_section {
-	padding: 80px 0;
-}
-
-.client-logo-wrap {
-	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
-	overflow: hidden;
-}
-
-.client-logo-wrap .client-contents {
-	width: 16.667%;
-	padding: 20px 0;
-	background-color: transparent;
-	position: relative;
-	-webkit-transition: all 350ms ease-in-out;
-	transition: all 350ms ease-in-out;
-	min-height: 160px;
-	max-height: 200px;
-	float: left;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-.client-logo-wrap .client-contents:before {
-	content: '';
-	position: absolute;
-	height: 100%;
-	top: 0;
-	left: -1px;
-	border-left: 1px solid #e9e9e9;
-}
-
-.client-logo-wrap .client-contents:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 0;
-	left: 0;
-	top: auto;
-	bottom: -1px;
-	border-bottom: 1px solid #e9e9e9;
-}
-
-.client-logo-wrap .client-contents img {
-	display: block;
-	margin: 0 auto;
-}
-
-.client-logo-wrap .client-contents:hover {
-	background-color: #e9e9e9;
-}
-
 
 /*=====================INNER-PAGES===============*/
 
@@ -3293,8 +3223,77 @@ ul.wp-block-gallery.alignnone,ul.wp-block-gallery.alignwide,ul.wp-block-gallery.
 }
 
 
+/*-------------------------------
+		CLIENTS-SECTION
+---------------------------------*/
+
+.awards {
+	padding: 80px 0;
+}
+
+.awards__list {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.awards__item {
+	width: 16.667%;
+	padding: 20px 0;
+	background-color: transparent;
+	position: relative;
+	transition: all 350ms ease-in-out;
+	min-height: 160px;
+	max-height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .awards__item::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -1px;
+	border-left: 1px solid #e9e9e9;
+}
+
+.awards__item:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0;
+	left: 0;
+	top: auto;
+	bottom: -1px;
+	border-bottom: 1px solid #e9e9e9;
+} */
+
+.awards__image {
+	display: block;
+	margin: 0 auto;
+}
 
 
+
+@media (max-width: 769px) {
+	.awards__item {
+		width:33.33%;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.awards__item {
+		width:50%;
+		padding:6px;
+	}
+}
 
 /* CUSTOM */
 
