@@ -9,14 +9,7 @@ function construction_lite_dynamic_css(){
         }
         <?php
     }
-    $construction_lite_cta_bg_image = get_theme_mod('construction_lite_cta_bg_image');
-    if($construction_lite_cta_bg_image){
-        ?>
-        .cta_section{
-            background: url('<?php echo esc_url($construction_lite_cta_bg_image) ?>') no-repeat center fixed;
-        }
-        <?php
-    }
+
     $construction_lite_body_font_size = get_theme_mod('construction_lite_body_font_size');
     $construction_lite_h1_font_size = get_theme_mod('construction_lite_h1_font_size');
     $construction_lite_h2_font_size = get_theme_mod('construction_lite_h2_font_size');
