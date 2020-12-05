@@ -1,0 +1,1461 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 03:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50 comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53 comments.php:74
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:54 comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:25
+msgid "Footer Logo"
+msgstr ""
+
+#. %s : theme page link
+#: footer.php:73
+#, php-format
+msgid ""
+"WordPress Theme : <a href=\"%s\">Construction Lite</a> by AccessPress Themes"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130 functions.php:139 functions.php:148 functions.php:157
+#: functions.php:166 functions.php:175
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:137
+msgid "Team Member"
+msgstr ""
+
+#: functions.php:146
+msgid "Bottom Footer One"
+msgstr ""
+
+#: functions.php:155
+msgid "Bottom Footer Two"
+msgstr ""
+
+#: functions.php:164
+msgid "Bottom Footer Three"
+msgstr ""
+
+#: functions.php:173
+msgid "Woocommerce Header Cart List"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/construction-function.php:76 inc/construction-function.php:86
+msgid "-- Choose --"
+msgstr ""
+
+#: inc/construction-function.php:188
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/construction-function.php:192
+msgid "404 Error"
+msgstr ""
+
+#: inc/construction-function.php:225 inc/construction-function.php:228
+msgid "Home"
+msgstr ""
+
+#: inc/construction-function.php:234
+msgid "Archive by category"
+msgstr ""
+
+#: inc/construction-function.php:236
+msgid "Search results for"
+msgstr ""
+
+#: inc/construction-function.php:288
+msgid "Posts tagged"
+msgstr ""
+
+#: inc/construction-function.php:292
+msgid "Articles posted by "
+msgstr ""
+
+#: inc/construction-function.php:294
+msgid "Error 404"
+msgstr ""
+
+#: inc/construction-function.php:300
+msgid "Page"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: inc/customizer.php:32 inc/welcome/sections/free_vs_pro.php:29
+#: inc/welcome/sections/free_vs_pro.php:278
+msgid "Buy Now"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Compare"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:52 inc/template-tags.php:59
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:69
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: inc/template-tags.php:76 template-parts/content-page.php:45
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. Name of the template
+msgid "Construction Home"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:33 template-parts/content.php:68
+msgid "Pages:"
+msgstr ""
+
+#. 1: title.
+#: template-parts/content.php:37
+msgid "1 Comment"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: template-parts/content.php:43
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content.php:64 template-parts/section-about.php:28
+#: template-parts/section-blog.php:61
+msgid "Read More"
+msgstr ""
+
+#: template-parts/section-blog.php:56
+msgid " comment"
+msgstr ""
+
+#: template-parts/section-feature.php:57
+msgid "Feature Image"
+msgstr ""
+
+#: template-parts/section-shop.php:50
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: template-parts/section-shop.php:50
+msgid "out of 5"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:10
+msgid "General Setting"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:16
+msgid "Header Setting"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:17
+msgid "All The Header Setting Available Here"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:24
+msgid "Home Setting"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:25
+msgid "All The Setting For Home Sections"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:32
+msgid "Typography Setting"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:39
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:48
+msgid "Menu Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:49
+msgid "All The Settings For Menu"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:58
+msgid "Slider Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:59
+msgid "All The Settings For Slider"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:68
+msgid "Inner Page Title Bar Background"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:77
+msgid "About Us Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:86
+msgid "Feature Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:95
+msgid "Team Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:104
+msgid "Portfolio Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:113
+msgid "Blog Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:122
+msgid "Call To Action Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:131
+msgid "Shop Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:140
+msgid "Testimonial Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:149
+msgid "Client Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:158
+msgid "Top Footer Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:167
+msgid "Bottom Footer Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:176
+msgid "Body"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:185
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:194
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:203
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:212
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:221
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:230
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:239
+#: inc/admin-panel/construction-customizer-option.php:1393
+#: inc/welcome/sections/getting_started.php:36
+msgid "Template Color"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:256
+msgid "Check Enable Search On Menu"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:272
+msgid ""
+"Check Enable Cart On Menu (Only works if WooCommerce plugin is activated.)"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:288
+msgid "Check Enable Slider"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:304
+msgid "Slider Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:323
+msgid "Inner Page Title Bar Background Image"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:340
+msgid "Enable About US"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:357
+msgid "About Us Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:374
+msgid "About Us Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:390
+msgid "About Us Post"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:407
+msgid "Disable Feature Image Frame"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:423
+msgid "Enable Feature Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:440
+msgid "Feature Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:457
+msgid "Feature Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:473
+msgid "Feature Post Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:492
+msgid "Feature Section Image"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:509
+msgid "Enable Team"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:526
+msgid "Team Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:543
+msgid "Team Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:559
+msgid "Enable Portfolio"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:576
+msgid "Portfolio Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:593
+msgid "Portfolio Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:609
+msgid "Portfolio Post Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:626
+msgid "Enable Bolog Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:643
+msgid "Blog Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:660
+msgid "Blog Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:676
+msgid "Blog Post Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:693
+msgid "Enable Call To Action Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:710
+msgid "Call To Action Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:727
+msgid "Call To Action Section Description"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:744
+msgid "Call To Action Button Text"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:760
+msgid "Call To Action Button Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:778
+msgid "Section Background Image"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:795
+msgid "Enable Shop Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:812
+msgid "Shop Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:829
+msgid "Shop Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:845
+msgid "Enable Testimonial Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:862
+msgid "Testimonial Section Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:879
+msgid "Testimonial Section Sub Title"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:895
+msgid "Testimonial Post Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:912
+msgid "Enable Client Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:928
+msgid "Client Post Category"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:945
+msgid "Enable Top Footer Section"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:963
+msgid "Top Footer Logo"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:981
+msgid "Top Footer Description"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:998
+#: inc/admin-panel/widget/construction-team.php:47
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1014
+#: inc/admin-panel/widget/construction-team.php:52
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1030
+#: inc/admin-panel/widget/construction-team.php:62
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1046
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1062
+#: inc/admin-panel/widget/construction-team.php:67
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1078
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1094
+msgid "GooglePlus Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1110
+msgid "Flickr Link"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1126
+msgid "Footer Text"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1143
+msgid "Body Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1161
+msgid "Heading 1 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1179
+msgid "Heading 2 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1197
+msgid "Heading 3 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1215
+msgid "Heading 4 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1233
+msgid "Heading 5 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1251
+msgid "Heading 6 Font Size"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1269
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1287
+msgid "Heading 1 Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1305
+msgid "Heading 2 Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1323
+msgid "Heading 3 Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1341
+msgid "Heading 4 Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1359
+msgid "Heading 5 Font"
+msgstr ""
+
+#: inc/admin-panel/construction-customizer-option.php:1377
+msgid "Heading 6 Font"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:45
+msgid "Access Demo Importer"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:49
+msgid ""
+"Access Demo Importer adds the feature to Import the Demo Conent with a "
+"single click."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:64
+msgid "Social booster for your site! A FREE plugin with premium features."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:71
+msgid ""
+"Connect your website visitors to your social community in an easy way! Link "
+"up your social media profiles via great looking social buttons."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:78
+msgid "Showcase your Tweets (Twitter Feeds) right on the site."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:85
+msgid ""
+"Contact Form 7 can manage multiple contact forms, plus you can customize the "
+"form and the mail contents flexibly with simple markup."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:96
+msgid ""
+"WOO Product Grid/List Design- Responsive Products Showcase Extension for "
+"Woocommerce"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:97
+msgid "1.0.3"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:104
+msgid ""
+"Design your WooCommerce shop like never before! A complete package for your "
+"Woo shop designer."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:109
+msgid ""
+"Woo Badge Designer - WooCommerce Product Badge Designer WordPress Plugin"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:110
+msgid "1.0.1"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:117
+msgid ""
+"Add some attractive badges on your product listing and single page and "
+"increase your sales upto 55%."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:122
+msgid ""
+"WP Admin White Label Login - WordPress Plugin For Advanced Customizable "
+"Login page"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:123
+msgid "1.3.5"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:130
+msgid ""
+"Make your default wp-admin screen look like a non WP one! Choose from some "
+"great ready to use template designs and many features to boost your "
+"WordPress backend."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:135
+msgid "Easy Side Tab Pro - Responsive Floating Tab Plugin For Wordpress"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:136
+msgid "1.0.6"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:143
+msgid ""
+"Place some great designed floating tabs on your site for quick links. "
+"Increase accessibility of your site."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:148
+msgid "Everest Timeline - Responsive WordPress Timeline Plugin"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:149
+msgid "2.0.2"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:156
+msgid "A perfect timeline maker! If you're planning to make one go for it!"
+msgstr ""
+
+#. Name of the theme
+#: inc/welcome/welcome-config.php:164
+msgid "Construction Lite"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:165
+msgid ""
+"Construction Lite - is full fledged WordPress theme for construction or "
+"business building website. Besides, it is elegantly designed to be used for "
+"multi purposes like business, corporates, eCommerce, personal or other "
+"creative agencies site. It is well optimized considering powerful features "
+"and functionalities along with simplicity. It is complete WordPress template "
+"that offers unlimited customization possibilities, powerful support, top-"
+"notch beautiful design, and loads of awesome features. The theme is fully "
+"based on live WordPress Customizer which makes your task a lot easier. It is "
+"an SEO friendly theme designed focusing the best user experience and "
+"usability."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:168
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:169
+msgid "Deactivate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:170 inc/welcome/welcome-config.php:187
+msgid "Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:173
+msgid "Step 1 - Documentation"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:174
+msgid ""
+"Read the Documentation and follow the instructions to manage the site , it "
+"helps you to set up the theme more easily and quickly. The Documentation is "
+"very easy with its pictorial  and well managed listed instructions. "
+msgstr ""
+
+#: inc/welcome/welcome-config.php:176
+msgid "Read Now"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:177
+msgid "Step 2 - Customizer Panel"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:178
+msgid "Go to Customizer Panels"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:181 inc/welcome/welcome-config.php:197
+msgid "Premium Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:182 inc/welcome/welcome-config.php:198
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:188
+msgid "Activated"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:189
+msgid "Installing Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:190
+msgid "Demo Installed"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:191
+msgid "Are you sure to import demo content ?"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:194
+msgid ""
+"All these required plugins will be installed and activated while importing "
+"demo. Or you can choose to install and activate them manually. If you're not "
+"importing any of the demos, you must install and activate these plugins "
+"manually."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:195
+msgid "All Recommended action has been successfully completed."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:196
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/welcome/welcome.php:35
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome/welcome.php:36
+msgid "Required Plugins"
+msgstr ""
+
+#: inc/welcome/welcome.php:37
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/welcome/welcome.php:38
+msgid "Import Demo"
+msgstr ""
+
+#: inc/welcome/welcome.php:39
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/welcome/welcome.php:40
+msgid "ChangeLog"
+msgstr ""
+
+#: inc/welcome/welcome.php:41
+msgid "Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:116
+msgid "Welcome!"
+msgstr ""
+
+#. %s : Theme Name
+#: inc/welcome/welcome.php:117
+#, php-format
+msgid ""
+"Thank you for installing %1$s. It is now installed and ready to use. Here "
+"are some useful links to get started: "
+msgstr ""
+
+#: inc/welcome/welcome.php:125
+msgid "Starter site demos!"
+msgstr ""
+
+#: inc/welcome/welcome.php:131
+msgid "ready to use starter sites."
+msgstr ""
+
+#: inc/welcome/welcome.php:136
+msgid ""
+"You can also reach-out to us for any support during the theme setup and use."
+msgstr ""
+
+#: inc/welcome/welcome.php:137
+msgid "Contact Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:145 inc/welcome/sections/support.php:31
+msgid "Documentation"
+msgstr ""
+
+#: inc/welcome/welcome.php:148
+msgid "Full Documentation"
+msgstr ""
+
+#: inc/welcome/welcome.php:152
+msgid "Return to your Dashboard"
+msgstr ""
+
+#. %s : Theme Name and Version
+#: inc/welcome/welcome.php:215
+msgid "Get connected, share your opinions and more via our social community: "
+msgstr ""
+
+#: inc/welcome/welcome.php:217
+msgid " -to receive updates, offers and more."
+msgstr ""
+
+#: inc/welcome/welcome.php:219
+msgid " -for tutorials, videos and more."
+msgstr ""
+
+#: inc/welcome/welcome.php:221
+msgid " -to stay updated. "
+msgstr ""
+
+#. %s : Theme Name
+#: inc/welcome/welcome.php:225
+#, php-format
+msgid "Are you enjoying %1$s? We would love to hear your feedback!"
+msgstr ""
+
+#: inc/welcome/welcome.php:364
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/welcome/welcome.php:374
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/welcome/welcome.php:466 inc/welcome/welcome.php:486
+msgid "Plugin Does not Exists"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:20
+msgid "Construction : Info"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:21
+msgid "Footer Info"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:34
+#: inc/admin-panel/widget/construction-recent-post.php:35
+msgid "Title"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:39
+msgid "Company Name"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:44
+msgid "Location"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:49
+msgid "Tel Text"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:54
+msgid "Tel Number"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:59
+msgid "Email Text"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:64
+msgid "Email Address"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:69
+msgid "Web Text"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-info.php:74
+msgid "Web Address"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-recent-post.php:20
+msgid "Construction : Recent Post"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-recent-post.php:21
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-recent-post.php:40
+msgid "Recent Post Category"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-recent-post.php:46
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-team.php:22
+msgid "Team Members"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-team.php:36
+msgid "Team Member Post"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-team.php:42
+msgid "Member Designation"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-team.php:57
+msgid "Google Plus Link"
+msgstr ""
+
+#: inc/admin-panel/widget/construction-team.php:72
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/welcome/sections/actions_required.php:58
+#: inc/welcome/sections/actions_required.php:122
+#: inc/welcome/sections/recommended_plugins.php:43
+#: inc/welcome/sections/recommended_plugins.php:149
+msgid "Version "
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:117
+msgid "Install : "
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:117
+msgid " Plugin"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:3
+msgid "ONE TIME PAYMENT"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:4
+msgid "No renewal needed"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:8
+msgid "UNLIMITED DOMAIN LICENCE"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:9
+msgid "Use in as many website as you need"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:13
+msgid "FREE UPDATES FOR LIFE TIME"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:14
+msgid "Keep upto date"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:19
+msgid "Features"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:20
+msgid "Free"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:21
+msgid "Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:25
+#: inc/welcome/sections/free_vs_pro.php:274
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:26
+#: inc/welcome/sections/free_vs_pro.php:275
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:34
+msgid "Built on Customizer"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:35
+msgid "Preview your changes as you build your site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:46
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:47
+msgid "Displays fine in device with different screen sizes."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:58
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:59
+msgid "Create the site in your own custom language."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:70
+msgid "Multiple Color Scheme"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:71
+msgid "Choose any theme skin color from the unlimited color option to choose."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:82
+msgid "Blog Page Layouts"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:83
+msgid "Choose the blog layout from available 4 blog page variations."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:86
+#: inc/welcome/sections/free_vs_pro.php:134
+msgid "1"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:89
+#: inc/welcome/sections/free_vs_pro.php:137
+msgid "4"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:94
+msgid "Multiple Sidebars Layouts"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:95
+msgid "Choose multiple sidebar layout from available 4 sidebar variation."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:106
+msgid "Single Page Scroll"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:107
+msgid "Choose Scrolling Sections will make your whole site scroll like slider."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:118
+msgid "Breadcrumb Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:119
+msgid "Keep track of locations within site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:130
+msgid "Multiple Blog Layouts"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:131
+msgid "Have a beautiful blog page within your site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:142
+msgid "Custom Page Header Banner"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:143
+msgid "Uniquely display the header banners for pages."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:154
+msgid "Custom Post Types"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:155
+msgid "Have a seperate custom type to uniquely distinguish the post types."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:166
+msgid "Typography Options"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:167
+msgid ""
+"Set the font of your choice from the available 400+ Google Fonts for your "
+"site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:178
+msgid "Inbuilt Shortcodes"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:179
+msgid "Build feature rich pages using beautiful inbuilt shortcodes."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:185
+msgid "8"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:190
+msgid "Inbuilt Widgets"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:191
+msgid "Create a feature rich page in an instant using the inbuilt widgets."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:197
+#: inc/welcome/sections/free_vs_pro.php:221
+msgid "9"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:202
+msgid "Countdown Page"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:203
+msgid "Create a countdown clock and embed it in your website."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:214
+msgid "Preloader Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:215
+msgid "Set the preloader option for lazy loading effects in the site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:226
+msgid "Home Section Reorder"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:227
+msgid "Set the home section in any order as per your requirement."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:238
+msgid "Under Construction Page"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:239
+msgid ""
+"Display Under Construction Page to the users notifying the delay in "
+"publication of site due to some reason."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:250
+msgid "Fully WooCommerce Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:251
+msgid "Yes - Stop your WooCommerce theme search here."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:262
+msgid "SEO Optimized"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:263
+msgid "Google will love it."
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:5
+msgid "Links to Customizer Settings"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:11
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:16
+msgid "HomePage Settings"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:21
+msgid "Section Reorder"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:26
+msgid "Menu Options"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:31
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:41
+msgid "Footer Options"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:47
+msgid "Layout Options"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:61
+msgid "Step 1 - Checkout starter sites (Demos) "
+msgstr ""
+
+#. %s : Theme Name
+#: inc/welcome/sections/getting_started.php:62
+#, php-format
+msgid ""
+"%1$s now comes with a sites library with 6 starter sites to pick from. You "
+"can check theme out and decide which one to start with. However you can "
+"decide not to use any one of them and start building your site from scratch."
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:63
+msgid "See Demos"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:69
+msgid "Step 2 - Import demo of your choice "
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:70
+msgid ""
+"Once you chose one of the available starter sites (demos) - you can install "
+"it. Please be noted that once you install the demo, it will install all the "
+"required plugins too. It is not recommended to install demo on your existing "
+"content. A fresh WordPress installation would be required to install demo to "
+"replicate demo content exactly. "
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:71
+msgid "Install Demo"
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:74
+msgid "Step 3 - Start editing the demo content and making your site! "
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:75
+msgid ""
+"Once you install the demo, you can start editing the content, replacing "
+"images etc."
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:78
+msgid "Step 4 - You 're done! "
+msgstr ""
+
+#: inc/welcome/sections/getting_started.php:79
+msgid "Go live with the website and get some rest"
+msgstr ""
+
+#: inc/welcome/sections/recommended_plugins.php:80
+msgid "View Detail"
+msgstr ""
+
+#: inc/welcome/sections/support.php:4
+msgid "Create Support Tickets"
+msgstr ""
+
+#: inc/welcome/sections/support.php:5
+msgid ""
+"If you're having any issues with the theme, feel free to create a ticket in "
+"our support forum. We reply your ticket very soon!"
+msgstr ""
+
+#: inc/welcome/sections/support.php:6
+msgid "Create Ticket"
+msgstr ""
+
+#: inc/welcome/sections/support.php:12
+msgid "Online Chat"
+msgstr ""
+
+#: inc/welcome/sections/support.php:13
+msgid ""
+"If you need an immediate solution, you can try our online chat support too. "
+"However our online time is limited and as below"
+msgstr ""
+
+#: inc/welcome/sections/support.php:14
+msgid "Mon - Fri"
+msgstr ""
+
+#: inc/welcome/sections/support.php:15
+msgid "10AM - 5PM "
+msgstr ""
+
+#: inc/welcome/sections/support.php:16
+msgid "Kathmandu Time (GMT + 5:45)"
+msgstr ""
+
+#: inc/welcome/sections/support.php:17
+msgid "Start Online Chat"
+msgstr ""
+
+#: inc/welcome/sections/support.php:23
+msgid "Email to support team"
+msgstr ""
+
+#: inc/welcome/sections/support.php:24
+msgid ""
+"You can also email to our support team directly at : "
+"support@accesspressthemes.com."
+msgstr ""
+
+#: inc/welcome/sections/support.php:32
+msgid ""
+"Checkout our documentation and get more details on how to setup / configure "
+"theme step by step."
+msgstr ""
+
+#: inc/welcome/sections/support.php:33
+msgid "View Documentation"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Construction is full fledged WordPress theme for construction or business "
+"building website. Besides, it is elegantly designed to be used for multi "
+"purposes like business, corporates, eCommerce, personal or other creative "
+"agencies site. It is well optimized considering powerful features and "
+"functionalities along with simplicity. It is complete WordPress template "
+"that offers unlimited customization possibilities, powerful support, top-"
+"notch beautiful design, and loads of awesome features. The theme is fully "
+"based on live WordPress Customizer which makes your task a lot easier. It is "
+"an SEO friendly theme designed focusing the best user experience and "
+"usability."
+msgstr ""
+
+#. URI of the theme
+msgid "https://accesspressthemes.com/wordpress-themes/construction/"
+msgstr ""
+
+#. Author of the theme
+msgid "AccesspressThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://accesspressthemes.com/"
+msgstr ""
