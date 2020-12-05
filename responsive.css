@@ -111,20 +111,6 @@
 	.main-navigation li a {
 		padding:10px 0;
 	}
-	.slider-text-content .slider-title {
-		font-size: 30px;
-		margin-bottom: 15px;
-	}
-	.slider-content{
-		font-size: 14px;
-		max-width: 80%;
-	}
-	.slider-content div {
-		margin-top: 20px;
-	}
-	.slider-content div a {
-		font-size: 12px;
-	}
 	.about_section {
 		padding:80px 0;
 	}
@@ -279,40 +265,6 @@
 	.main-navigation {
 		width: 50%;
 	}
-	.slider-text-content .slider-title {
-		font-size: 20px;
-		margin:0 auto 15px;
-		text-align: center;
-	}
-	.slider-content {
-		font-size: 0;
-		margin:0 auto;
-	}
-	.slider-content div {
-		margin-top: 0;
-		text-align: center;
-	}
-	.slider-content div a {
-		display: inline-block;
-		padding:10px 12px;
-	}
-	.mail-slider-header-wrap .owl-prev, 
-	.mail-slider-header-wrap .owl-next {
-		width:25px;
-		height:25px;
-		margin-top: -12.5px;
-	}
-	.mail-slider-header-wrap .owl-prev:before, 
-	.mail-slider-header-wrap .owl-next:before {
-		background-size: contain;
-		width:35px;
-	}
-	.mail-slider-header-wrap .owl-prev:before {
-		background-position: 9px 2px;
-	}
-	.mail-slider-header-wrap .owl-next:before {
-		background-position: -8px 2px;
-	}
 	.about_section .section-sub-title h2 {
 		margin:0 0 25px;
 	}
@@ -465,16 +417,6 @@
 	}
 	.header-cart-search .widget_shopping_cart {
 		width:260px;
-	}
-	.slider-content{
-		display: none;
-	}
-	.slider-text-content {
-		text-align: center;
-		width: 100%;
-	}
-	.slider-text-content .slider-title {
-		font-size:14px;
 	}
 	/*----inner-pages---*/
 	.comment-author-date span {

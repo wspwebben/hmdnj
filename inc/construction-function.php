@@ -17,53 +17,6 @@ function construction_lite_esc_slider_content($input){
     );
     return wp_kses($input,$construction_lite_slider_content);
 }
-function construction_lite_Slider_Control(){
-    $construct_slider_cat = get_theme_mod('construction_lite_slider_cat');
-    if($construct_slider_cat){
-        $construct_slider_args = array(
-            'post_type' => 'post',
-            'order' => 'DESC',
-            'posts_per_page' => -1,
-            'post_status' => 'publish',
-            'category_name' => $construct_slider_cat
-        );
-        $construct_slider_query = new WP_Query($construct_slider_args);
-        if($construct_slider_query->have_posts()):
-            ?>
-            <div class="mail-slider-header-wrap">
-                <div id="header-slider-wrap">
-                    <?php
-                        while($construct_slider_query->have_posts()):
-                            $construct_slider_query->the_post();
-                            $construction_lite_slider_image_src = wp_get_attachment_image_src(get_post_thumbnail_id(),'construction-slider-image');
-                            $construction_lite_image_url = $construction_lite_slider_image_src[0];
-                            if($construction_lite_image_url || get_the_title() || get_the_content()){
-                                ?>
-                                    <div class="content-slider">
-                                        <?php if($construction_lite_image_url){ ?>
-                                            <div class="slider-image"><img src="<?php echo esc_url($construction_lite_image_url); ?>" alt="<?php the_title_attribute(); ?>" title="<?php the_title_attribute(); ?>" /></div>
-                                        <?php } ?>
-                                        <?php if(get_the_title() || get_the_content()){ ?>
-                                                <div class="slider-text-content">
-                                                    <div class="ak-container">
-                                                        <?php if(get_the_title()){ ?><div class="slider-title"><?php the_title(); ?></div><?php } ?>
-                                                        <?php if(get_the_content()){ ?><div class="slider-content"> <?php echo construction_lite_esc_slider_content(get_the_content()); ?></div><?php } ?>
-                                                    </div>
-                                                </div>
-                                        <?php } ?>
-                                    </div>
-                                <?php
-                            }
-                        endwhile;
-                        wp_reset_postdata();
-                    ?>
-                </div>
-            </div>
-            <?php
-        endif;
-    }
-}
-add_action('construction_lite_slider_action','construction_lite_Slider_Control');
 
 function construction_lite_category_list(){
     $construction_lite_cat_lists = get_categories(
