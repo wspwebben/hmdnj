@@ -192,7 +192,6 @@ function construction_lite_scripts() {
 	wp_enqueue_style( 'construction-lite-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'construction-lite-keyboard-css', get_template_directory_uri() . '/css/keyboard.css');
     wp_enqueue_style('owl-carousel',get_template_directory_uri(). '/js/owl-carousel/owl.carousel.css');
-    wp_enqueue_style('construction-lite-woocommerce-style',get_template_directory_uri(). '/woocommerce/woocommerce-style.css');
     wp_enqueue_style('construction-lite-responsive',get_template_directory_uri(). '/responsive.css');
     wp_enqueue_style('animate',get_template_directory_uri(). '/js/wow-animation/animate.css');
 	
