@@ -39,24 +39,43 @@ $(".test-post-loop-wrap").owlCarousel({
         }
 });
 
-var open = false;
-  $('.search-icon').on('click',function(){
-    open = !open;
-    if(open){
-      $('.ak-search').show();
-      $(this).find('i.fa4').removeClass('fa-search').addClass('fa-caret-right');
-    }else{
-      $('.ak-search').hide();
-      $(this).find('i.fa4').addClass('fa-search').removeClass('fa-caret-right');
+// Main menu toggle
+var toggleModule = (function() {
+  var menu = document.querySelector('.js-menu');
+  var toggle = menu.querySelector('.js-menu__toggle');
+  var content = menu.querySelector('.js-menu__content');
+
+  let isOpen = false;
+
+  var CONTENT_OPEN = 'open'
+  var TOGGLE_OPEN = 'open';
+
+  const openMenu = function() {
+    content.setAttribute(CONTENT_OPEN, true);
+    toggle.setAttribute(TOGGLE_OPEN, true);
+
+    document.body.style.overflow = 'hidden';
+
+    isOpen = true;
+  }
+
+  const closeMenu = function() {
+    content.removeAttribute(CONTENT_OPEN);
+    toggle.removeAttribute(TOGGLE_OPEN);
+    
+    document.body.style.overflow = '';
+
+    isOpen = false;
+  }
+
+  toggle.addEventListener('click', function() {
+    if (isOpen) {
+        closeMenu();
+    } else {
+        openMenu();
     }
   });
-  
-  //Navigation toggle
-
-$('#toggle').on('click keypress',function (e) {
-    $(this).toggleClass("on");
-    $(".primary-menu").slideToggle();
-});
+})()
 
 //Entrance WOW JS
 var wow = new WOW(

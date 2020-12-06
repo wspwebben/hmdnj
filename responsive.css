@@ -16,13 +16,6 @@
 	}
 }
 @media (max-width: 960px) {
-	.main-navigation {
-		width: 89%;
-		padding: 0;
-	}
-	.cart-fa-icon {
-		padding: 15px 0;
-	}
     .posts-feature .section-feature-image{
         padding:0 10px;
     }
@@ -45,72 +38,7 @@
 	}
 
 }
-@media (min-width: 769px) {
-	.main-navigation .primary-menu {
-		display: block !important;
-	}
-}
 @media (max-width: 769px) {
-	.site-branding {
-		width:35%;
-		padding: 15px 0;
-	}
-	#site-navigation #toggle {
-		display: block;
-	}
-	.main-navigation .search-toggle,
-	.header-cart-search{
-		float: right;
-		margin-left: 0;
-		margin-right: 30px;
-	}
-	.cart-fa-icon {
-		padding: 36px 0;
-	}
-	.main-navigation .primary-menu {
-		display: none;
-		position: absolute;
-		left:0;
-		top:100%;
-		width: 100%;
-		z-index: 99999;
-		background-color: #f5f5f5;
-		border-bottom: 2px double #fea100;
-		height:370px;
-		overflow-x: hidden;
-		-webkit-box-shadow: 0 1px 10px -3px #aaa inset; 
-	    box-shadow: 0 1px 10px -3px #aaa inset;
-	}
-	.main-navigation {
-		width: 50%;
-		text-align: left;
-	}
-	.main-navigation li{
-		display: block;
-		float: none;
-	}
-	.main-navigation ul ul {
-		display: block;
-		opacity: 1;
-		visibility: visible;
-		position: static;
-		-webkit-transform:none;
-		transform:none;
-		margin-left: 15px;
-		background-color:transparent;
-	}
-	.main-navigation ul ul li {
-		border-bottom: 0;
-	}
-	.main-navigation ul li:hover ul, 
-	.main-navigation ul ul li:hover > ul, 
-	.main-navigation ul ul li.focus > ul {
-		-webkit-transform:none;
-		transform:none;
-	}
-	.main-navigation li a {
-		padding:10px 0;
-	}
 	.about_section {
 		padding:80px 0;
 	}
@@ -234,10 +162,6 @@
 }
 
 @media (max-width: 640px) {
-	.main-navigation {
-		width:45%;
-	}
-
 	.team-members-contents, 
 	.blog_section .blogs-contents, 
 	.bottom-footer .bottom-footer-wrapper {
@@ -259,12 +183,6 @@
 }
 
 @media (max-width: 480px) {
-	.site-branding {
-		width: 48%;
-	}
-	.main-navigation {
-		width: 50%;
-	}
 	.about_section .section-sub-title h2 {
 		margin:0 0 25px;
 	}
@@ -385,39 +303,6 @@
 }
 
 @media (max-width: 400px) {
-	.site-header .ak-container{
-		display: block;
-		
-	}
-	
-	.site-header .ak-container:after,
-	.site-header .ak-container:before{
-		content: "";
-		display: table;
-		clear: both;
-	}
-	
-	.site-header .ak-container:after{
-		clear: both;
-	}
-	.site-branding {
-		float: none;
-		clear:both;
-		width:100%;
-	}
-	#site-navigation #toggle {
-		float: left;
-	}
-	.main-navigation {
-		width:100%;
-		float: none;
-	}
-	.cart-fa-icon {
-		padding: 10px 0;
-	}
-	.header-cart-search .widget_shopping_cart {
-		width:260px;
-	}
 	/*----inner-pages---*/
 	.comment-author-date span {
     	margin-right: 20px;
