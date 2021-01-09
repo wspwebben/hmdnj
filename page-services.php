@@ -14,13 +14,11 @@ do_action('construction_lite_header_banner');?>
     		<main id="main" class="site-main" role="main">
 
 					<?php
-						$service_category = 'service';
 						$service_args = array(
-							'post_type' => 'post',
+							'post_type' => 'service',
 							'order' => 'DESC',
 							'posts_per_page' => -1,
 							'post_status' => 'publish',
-							'category_name' => $service_category
 						);
 						$service_query = new WP_Query($service_args);
 						

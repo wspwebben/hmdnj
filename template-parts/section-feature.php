@@ -16,15 +16,12 @@
     </div>
 <?php } ?>
 <?php
-    $construction_lite_feature_category = get_theme_mod('construction_lite_feature_cat');
-    if($construction_lite_feature_category){
         wp_reset_postdata();
         $construction_lite_feature_args = array(
-            'poat_type' => 'post',
+            'post_type' => 'service',
             'order' => 'DESC',
             'posts_per_page' => -1,
             'post_status' => 'publish',
-            'category_name' => $construction_lite_feature_category
         );
         $construction_lite_feature_query = new WP_Query($construction_lite_feature_args);
         if($construction_lite_feature_query->have_posts() || $construction_lite_feature_section_image):
@@ -55,6 +52,4 @@
 				</ul>
 			  </div>
 			</div>
-        <?php 
-        endif;
-        } ?>
+        <?php endif; ?>
