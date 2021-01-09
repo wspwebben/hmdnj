@@ -14,7 +14,7 @@ do_action('header_banner');?>
     		<main id="main" class="site-main" role="main">
     
     			<?php
-            $portfolio_category = 'portfolio';
+            $portfolio_category = 'projects';
             $portfolio_args = array(
               'post_type' => 'post',
               'order' => 'DESC',
