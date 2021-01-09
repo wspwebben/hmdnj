@@ -21,7 +21,7 @@
         Our address: Millstone, NJ
         <i class="contacts__icon fa fa-home"></i>
       </a>
-      <a class="contacts__item" href="#">
+      <a class="contacts__item" href="tel:+17325777630">
         Call us: <strong class="contacts__call">+1 732-577-7630</strong>
         <i class="contacts__icon fa fa-phone"></i>
       </a>
