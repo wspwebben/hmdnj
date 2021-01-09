@@ -7,11 +7,11 @@
  * @package construction lite
  */
 
-if ( ! is_active_sidebar( 'construction-lite-sidebar-1' ) ) {
-	return;
-}
 ?>
 
 <aside id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'construction-lite-sidebar-1' ); ?>
+	<?php
+		echo do_shortcode( '[wpforms id="197"]' );
+	// dynamic_sidebar( 'construction-lite-sidebar-1' ); 
+	?>
 </aside><!-- #secondary -->
