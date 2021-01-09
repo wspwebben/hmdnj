@@ -14,13 +14,11 @@ do_action('header_banner');?>
     		<main id="main" class="site-main" role="main">
     
     			<?php
-            $portfolio_category = 'projects';
             $portfolio_args = array(
-              'post_type' => 'post',
+              'post_type' => 'project',
               'order' => 'DESC',
               'posts_per_page' => -1,
               'post_status' => 'publish',
-              'category_name' => $portfolio_category
             );
             $portfolio_query = new WP_Query($portfolio_args);
             
