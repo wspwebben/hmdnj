@@ -29,12 +29,9 @@
 			<ul class="features__list">
 				<?php while($feature_query->have_posts()):
 								$feature_query->the_post();
-								$feature_image_src = wp_get_attachment_image_src(get_post_thumbnail_id(),'construction-feature-image');
-								$feature_image_url = $feature_image_src[0];
 				?>
 					<li class="features__item">
 					  <article class="features__wrapper">
-							<img src="<?php echo esc_url($feature_image_url); ?>" alt="" />
 							<h3 class="features__title">
 								<a class="features__link" href="<?php the_permalink(); ?>">
 									<?php the_title(); ?>
