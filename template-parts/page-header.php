@@ -18,12 +18,12 @@
     
     <p class="page-header__contacts contacts">
       <a class="contacts__item">
-        Our address: Millstone, NJ
-        <i class="contacts__icon fa fa-home"></i>
+        <img src="<?php bloginfo('stylesheet_directory')?>/images/icons/marker.svg" alt="" >
+        <b>Millstone, NJ</b>
       </a>
       <a class="contacts__item" href="tel:+17325777630">
-        Call us: <strong class="contacts__call">+1 732-577-7630</strong>
-        <i class="contacts__icon fa fa-phone"></i>
+        <img src="<?php bloginfo('stylesheet_directory')?>/images/icons/phone.svg" alt="" >
+        <b>+ 1 732 577 76 30</b>
       </a>
     </p>
   </div>
