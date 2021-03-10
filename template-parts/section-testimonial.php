@@ -11,7 +11,7 @@
         <div class="section-sub-title"><h2>TESTIMONIALS</h2></div>
     </div>
 
-    <div class="test-psots-wrap">
+    <div class="test-posts-wrap">
         <div class="test-post-loop-wrap owl-carousel">
             <?php
                 $test_args = array(

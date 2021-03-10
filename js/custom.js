@@ -22,18 +22,19 @@ $("#portfolio-workd-wrap").owlCarousel({
             }
         }
 });
+
 $(".test-post-loop-wrap").owlCarousel({
     nav:true,
     loop:true,
     items: 2,
-    margin: 40,
+    margin: 15,
   	dots: false,
     navElement: 'div',
     responsive:{
-            500:{
+            0:{
                 items:1
             },
-            650:{
+            600:{
                 items:2
             }
         }
