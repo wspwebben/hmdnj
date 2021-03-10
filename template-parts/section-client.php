@@ -19,6 +19,10 @@
 ?>
     <section class="awards">
         <div class="awards__container ak-container">
+            <div class="section-title-sub-wrap wow fadeInUp">
+                <div class="section-sub-title"><h2>OUR AWARDS</h2></div>
+            </div>
+            
             <ul class="awards__list">
                 <?php
                     while($client_query->have_posts()):
