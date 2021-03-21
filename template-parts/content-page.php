@@ -10,21 +10,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<?php
-$construction_lite_woocommerce_check = 'true';  
-if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
-  if(!is_cart() && !is_checkout()){
-    $construction_lite_woocommerce_check = '';
-  }
-}
-if($construction_lite_woocommerce_check){?>
-	<header class="entry-header">
-    <?php
-        $construction_lite_page_image = wp_get_attachment_image_src(get_post_thumbnail_id(),'construction-single-page');
-        if($construction_lite_page_image){?><img src="<?php echo esc_url($construction_lite_page_image[0]) ?>" alt="<?php the_title_attribute()?>" title="<?php the_title_attribute()?>" /><?php } ?>
-	   <?php if(get_the_title()){ the_title( '<h1 class="entry-title">', '</h1>' );} ?>
-	</header><!-- .entry-header -->
-<?php } ?>
 	<div class="entry-content">
 		<?php
 			the_content();

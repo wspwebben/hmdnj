@@ -7,21 +7,18 @@
  * @package construction lite
  */
 
-get_header();
-do_action('construction_lite_header_banner');?>
+get_header();?>
     <div class="ak-container">
-    	<div id="primary" class="content-area">
+    	<div class="page-contact-us" id="primary">
     		<main id="main" class="site-main" role="main">
+					<div class="section-sub-title">
+						<h2>Сontact us</h2>
+					</div>
     
     			<?php
     			while ( have_posts() ) : the_post();
     
     				get_template_part( 'template-parts/content', 'page' );
-    
-    				// If comments are open or we have at least one comment, load up the comment template.
-    				if ( comments_open() || get_comments_number() ) :
-    					comments_template();
-    				endif;
     
     			endwhile; // End of the loop.
     			?>
