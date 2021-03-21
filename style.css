@@ -3213,49 +3213,57 @@ img.custom-logo {
 /* portfolio */
 
 .portfolio {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-auto-rows: minmax(500px, auto);
+	margin: 0;
 	list-style: none;
-	padding: 0;
-	margin: -1em;
 }
 
-.portfolio__item {
-	width: 30%;
-	max-width: calc(100% / 3);
-	flex-grow: 1;
-	padding:	 1em;
+.portfolio__item--form {
+	grid-area: 1 / -2 / 2 / -1;
 }
 
 .portfolio-item {
 	position: relative;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 0.6em 1em;
-	border-radius: 5px;
+	justify-content: flex-end;
+	padding: 40px 10px;
 	min-height: 10em;
 	background-color: rgba(23, 68, 47, 0.1);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	line-height: 1.8;
+	color: #174430;
+	overflow: hidden;
+}
+
+.portfolio-item::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 75%);
 }
 
 .portfolio-item__title {
-	margin-top: auto;
+	text-align: center;
+	bottom: 40px;
 	margin-bottom: 0;
 }
 
 .portfolio-item__link {
-	margin: 0;
-	padding: 5px;
-	color: #fff;
-	background-color: rgba(0, 0, 0, .5);
-}
-
-.portfolio-item__link:hover {
-	color: #fff;
-	background-color: rgba(23, 68, 47, 0.5);
+	display: block;
+	color: inherit;
+	font-size: 32px;
+	line-height: 48px;
+	text-transform: uppercase;
 }
 
 .portfolio-item__link::before {
@@ -3265,6 +3273,26 @@ img.custom-logo {
 	top: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.portfolio-item__link span {
+	position: relative;
+}
+
+.portfolio-item__link span::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #174430;
+	transform: translate(-200%);
+	transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item__link:hover span::after{
+	transform: none;
 }
 
 /* CONTACT US */
@@ -3417,7 +3445,7 @@ img.custom-logo {
 
 .hmd-contact-form textarea {
 	min-width: 100% !important;
-	min-height: 5em;
+	min-height: 8em;
 }
 
 .hmd-contact-form input:hover,
@@ -3464,5 +3492,5 @@ img.custom-logo {
 /* remove redundant margins */
 .wp-block-columns,
 div.wpforms-container-full {
-	margin: 0;
+	margin: 0 !important;
 }
