@@ -7,23 +7,23 @@
  * @package construction lite
  */
 
-get_header();
-do_action('construction_lite_header_banner');?>
-    <div class="ak-container">
-    	<div id="primary" class="content-area">
-    		<main id="main" class="site-main" role="main">
+$service_args = array(
+	'post_type' => 'service',
+	'order' => 'DESC',
+	'posts_per_page' => -1,
+	'post_status' => 'publish',
+);
+$service_query = new WP_Query($service_args);
 
-					<?php
-						$service_args = array(
-							'post_type' => 'service',
-							'order' => 'DESC',
-							'posts_per_page' => -1,
-							'post_status' => 'publish',
-						);
-						$service_query = new WP_Query($service_args);
-						
-						if($service_query->have_posts()):
-					?>
+get_header();?>
+    <div class="ak-container">
+    	<div id="primary">
+    		<main id="main" class="site-main p-t-60" role="main">
+					<div class="section-sub-title">
+						<h2>Services</h2>
+					</div>
+
+					<?php if($service_query->have_posts()): ?>
 						<div class="features">
 							<ul class="features__list">
 								<?php
@@ -52,8 +52,5 @@ do_action('construction_lite_header_banner');?>
 
     		</main><!-- #main -->
     	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-?> </div> <?php
+	  </div> <?php
 get_footer();

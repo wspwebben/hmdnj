@@ -3140,27 +3140,12 @@ img.custom-logo {
 } 
 
 .features__list {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
 	list-style: none;
-	margin: 0 -10px;
-}
-
-.features__item {
-	width: 100%;
-	padding: 10px;
-}
-
-@media (min-width: 600px) {
-	.features__item {
-		width: 50%;
-	}
-}
-
-@media (min-width: 1040px) {
-	.features__item {
-		width: 25%;
-	}
+	margin: 0;
+	padding: 0;
 }
 
 .features__wrapper {
@@ -3482,4 +3467,8 @@ img.custom-logo {
 
 .hmd-contact-form .wpforms-form .wpforms-submit-container button[type="submit"]:active {
 	background: rgb(23 68 48 / 30%);
+}
+
+.p-t-60 {
+	padding-top: 60px;
 }
