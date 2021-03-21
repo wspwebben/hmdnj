@@ -687,10 +687,6 @@ a:active {
 	display: block;
 }
 
-.hentry {
-	margin: 0 0 60px;
-}
-
 .byline,
 .updated:not(.published) {
 	display: none;
@@ -1067,11 +1063,7 @@ object {
 }
 
 .site-content {
-	padding-bottom: 140px;
-}
-
-.home.blog .site-content {
-	padding-bottom: 140px;
+	padding-bottom: 100px;
 }
 
 .home .site-content {
@@ -3135,10 +3127,6 @@ img.custom-logo {
 	margin-bottom: 30px;
 }
 
-.features  {
-	margin-bottom: 3rem;
-} 
-
 .features__list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -3471,4 +3459,10 @@ img.custom-logo {
 
 .p-t-60 {
 	padding-top: 60px;
+}
+
+/* remove redundant margins */
+.wp-block-columns,
+div.wpforms-container-full {
+	margin: 0;
 }
