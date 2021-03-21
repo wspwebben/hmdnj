@@ -4,7 +4,7 @@
 --------------------------------------------------------------*/
 
 html {
-	font-family: sans-serif;
+	font-family: "Segoe UI", sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -241,7 +241,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: "Segoe UI", sans-serif;
 	clear: both;
 }
 
@@ -1137,6 +1137,12 @@ object {
 	height: 4px;
 }
 
+@media (max-width: 650px) {
+	.section-sub-title h2 {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+}
 
 /*------------------------------
 		ABOUT-SECTION
@@ -3248,7 +3254,7 @@ img.custom-logo {
 	display: grid;
 	gap: 15px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-auto-rows: minmax(200px, auto);
+	grid-auto-rows: minmax(100px, auto);
 	margin: 0;
 	list-style: none;
 }
@@ -3270,7 +3276,6 @@ img.custom-logo {
 	flex-direction: column;
 	justify-content: flex-end;
 	padding: 40px 10px;
-	min-height: 10em;
 	background-color: rgba(23, 68, 47, 0.1);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3331,6 +3336,13 @@ img.custom-logo {
 
 .portfolio-item__link:hover span::after{
 	transform: none;
+}
+
+@media (max-width: 650px) {
+	.portfolio-item__link {
+		font-size: 18px;
+		line-height: 24px;
+	}
 }
 
 /* CONTACT US */
@@ -3409,6 +3421,12 @@ img.custom-logo {
 	background-image: url('./images/icons/instagram-dark.svg');
 }
 
+
+@media (max-width: 598px) {
+	.page-contact-us .hmd-contact-form {
+		margin-top: 30px !important;
+	}
+}
 
 /* contact us form */
 
@@ -3527,6 +3545,12 @@ img.custom-logo {
 	padding-top: 60px;
 }
 
+@media (max-width: 650px) {
+	.p-t-60 {
+		padding-top: 30px;
+	}	
+}
+
 /* remove redundant margins */
 .wp-block-columns,
 div.wpforms-container-full {
@@ -3571,6 +3595,7 @@ div.wpforms-container-full {
 .project__aside--image {
 	max-width: 350px;
 	margin-top: 0;
+	margin-bottom: 30px;
 }
 
 .project__aside img {
